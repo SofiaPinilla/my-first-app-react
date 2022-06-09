@@ -4,7 +4,7 @@ const ListItems = (props) => {
   console.log(props.books);
   const book = props.books.map((book) => {
     return (
-      <div>
+      <div key={book.id}>
         <p className="book-title">{book.title}</p >
         <p>{book.author}</p>
       </div>

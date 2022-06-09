@@ -10,10 +10,12 @@ function App() {
   const numbers = [1, 2, 3, 4, 5];
   const books = [
     {
+      id:1,
       title:'El Quijote',
       author:'Miguel de Cervantes'
     },
     {
+      id:2,
       title:'1984',
       author:'Yorge Props oruellee'
     }
